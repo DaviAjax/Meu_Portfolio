@@ -1,0 +1,85 @@
+.home-section, .container-home{
+  width: 90.6rem;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 0;
+}
+
+/* Background Home */
+
+.bg-home{
+  position: absolute;
+  height: 43.75rem;
+  width: 90.6rem;
+  background-color: var(--bg-section);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1.875rem;
+  top: 1.3rem;
+  z-index: 0;
+}
+
+.bg-home .top, .bottom{
+  display: block;
+  position: relative;
+  background: var(--bg-body);
+}
+
+.bg-home .top{
+  width: 55%;
+  height: 5.56rem;
+  margin: 0 auto;
+  border-bottom-left-radius: 1.87rem;
+  border-bottom-right-radius: 1.87rem;
+}
+
+.bg-home .top::after, .top::before{
+  content: '';
+  position: absolute;
+  width: 2.37rem;
+  height: 2.37rem;
+}
+
+.bg-home .top::after{
+  right: -2.37rem;
+  border-top-left-radius: 1.87rem;
+  box-shadow: -0.625rem -0.4375rem #021B1A;
+}
+
+.bg-home .top::before{
+  left: -2.37rem;
+  border-top-right-radius: 1.87rem;
+  box-shadow: 0.625rem -0.4375rem #021B1A;
+}
+
+.bg-home .bottom{
+  margin: 0;
+  width: 34.68rem;
+  height: 8rem;
+  border-top-right-radius: 1.87rem;
+}
+
+.bg-home .bottom::before, .bottom::after{
+  content: '';
+  position: absolute;
+  width: 1.87rem;
+  height: 2.43rem;
+  border-bottom-left-radius: 1.87rem;
+  background: var(--bg-body);
+  background-color: transparent;
+  box-shadow: -0.43rem 0.68rem 0 #021B1A;
+}
+
+.bg-home .bottom::before{
+  top: -2.43rem;
+  left: 0;
+}
+
+
+.bg-home .bottom::after{
+  top: 5.6rem;
+  right: -1.87rem;
+}
+/* Fim Background Home */
+

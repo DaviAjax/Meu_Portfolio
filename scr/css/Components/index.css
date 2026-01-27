@@ -1,3 +1,4 @@
 @import "/scr/css/Global/global.css";
 
-@import "partes/section-header.css"
+@import "partes/section-header.css";
+@import "partes/section-home.css";
