@@ -13,7 +13,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 21px 40px;
+  margin: 1.3rem 2.5rem;
   background-color: var(--bg-body);
   scroll-behavior: smooth;
   font-family: var(--font-principal);

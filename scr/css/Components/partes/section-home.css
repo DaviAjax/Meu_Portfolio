@@ -6,7 +6,6 @@
 }
 
 /* Background Home */
-
 .bg-home{
   position: absolute;
   height: 43.75rem;
@@ -75,7 +74,6 @@
   top: -2.43rem;
   left: 0;
 }
-
 
 .bg-home .bottom::after{
   top: 5.6rem;
